@@ -1,21 +1,21 @@
 import { useState, useRef } from 'react';
-import Advertisement from './Advertisement';
+import Advertisement from './components/Advertisement';
 import './App.css';
-import BlogsAndNews from './BlogsAndNews';
-import Caring from './Caring';
-import Download from './Download';
-import Faqs from './Faqs';
-import Footer from './Footer';
-import Header from './Header';
-import Hero from './Hero';
-import Hospital from './Hospital';
-import MedicalSpecialist from './MedicalSpecialist';
-import OfferSwiper from './OfferSwiper';
-import Search from './Search';
-import Specialisation from './Specialisation';
-import Stats from './Stats';
-import MedCenters from './MedCenters';
-import MyBookings from './MyBookings';
+import BlogsAndNews from './components/BlogsAndNews';
+import Caring from './components/Caring';
+import Download from './components/Download';
+import Faqs from './components/Faqs';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import Hospital from './components/Hospital';
+import MedicalSpecialist from './components/MedicalSpecialist';
+import OfferSwiper from './components/OfferSwiper';
+import Search from './components/Search';
+import Specialisation from './components/Specialisation';
+import Stats from './components/Stats';
+import MedCenters from './components/MedCenters';
+import MyBookings from './components/MyBookings';
 
 function App() {
   const [cls, setCls] = useState('main')
