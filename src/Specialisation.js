@@ -8,7 +8,7 @@ function Specialisation() {
         <p className='title'>Find By Specialisation</p>
         <div>
             <div className='row'>
-                <SpecialisationCard imgSrc={'assets/DrugStore.png'} title={'Dentistry'} />
+                <SpecialisationCard imgSrc={'assets/Drugstore.png'} title={'Dentistry'} />
                 <SpecialisationCard imgSrc={'assets/Stethoscope.png'} title={'Primary Care'} />
                 <SpecialisationCard imgSrc={'assets/Heart Rate.png'} title={'Cardiology'} />
                 <SpecialisationCard imgSrc={'assets/Heart Rate Monitor.png'} title={'MRI Resonance'} />
