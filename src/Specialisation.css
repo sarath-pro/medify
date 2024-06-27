@@ -1,0 +1,45 @@
+.specialisation-container {
+    position: relative;
+    top: 120px;
+    background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.specialisation-container .row {
+    display: flex;
+    justify-content: center;
+}
+
+.specialisation-container .title {
+    margin: 26px;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 67px;
+    text-align: center;
+    color: #1B3C74;
+}
+
+.specialisation-container button {
+    width: 147px;
+    height: 50px;
+    gap: 0px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--primary);
+    color: white;
+    margin: 30px;
+}
+
+.specialisation-card-container p {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: center;
+    color: #ABB6C7;
+}

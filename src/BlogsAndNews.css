@@ -1,0 +1,38 @@
+.blogs-news-container {
+    position: relative;
+    top: 300px;
+    margin: 16px 0;
+}
+
+#bandn {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: center;
+    color: var(--primary);
+}
+
+#title {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 67px;
+    text-align: center;
+    color: #1B3C74;
+}
+
+.blogs-cards-container {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1120px) {
+    .blogs-cards-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}

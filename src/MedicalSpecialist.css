@@ -1,0 +1,25 @@
+.medical-specialist-container {
+    position: relative;
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: 100%;
+    height: 750px;
+    overflow-x: hidden;
+    /* z-index: 1000; */
+}
+
+.medical-specialist-container .title {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 67px;
+    text-align: center;
+    color: #1B3C74;
+
+}
+
+swiper-slide {
+    width: fit-content !important;
+}

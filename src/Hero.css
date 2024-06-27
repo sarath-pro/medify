@@ -1,0 +1,55 @@
+.hero-container {
+    background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+    position: relative;
+    top: -72px;
+    padding: 48px;
+}
+
+.tag-hero {
+    /* padding: 16px; */  
+}
+
+.hero-left {
+    position: relative;
+    bottom: 100px;
+}
+
+.hero-left button {
+    background-color: var(--primary);
+    border: none;
+    color: white;
+    width: 130px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.tag-hero h4 {
+    font-family: Poppins;
+    font-size: 31px;
+    font-weight: 500;
+    line-height: 68px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.tag-hero span {
+    font-family: Poppins;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+#centers {
+    color: var(--primary)
+}
+
+.hero-container img {
+    width: 643px;
+    height: 735.94px;
+    top: 82px;
+    left: 697px;
+    gap: 0px;
+}
+

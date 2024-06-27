@@ -1,0 +1,101 @@
+.faqs-container {
+    position: relative;
+    top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+}
+
+#faqs-left-2 {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 180px;
+    right: 85px;
+}
+
+.faqs-right .plus {
+    font-family: Font Awesome 5 Free;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 18px;
+    text-align: right;
+    color: var(--primary)
+}
+
+.faqs-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 100px 0 30px 30px;
+}   
+
+.faqs-right p {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: #1B3C74;
+    margin: 16px;
+}
+
+#faqs-type {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: center;
+    color: var(--primary)
+}
+
+#faqs-title {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 67px;
+    text-align: center;
+    color: #1B3C74
+}
+
+.faqs-left {
+    width: 50%;
+}
+
+.faqs-flex {
+    display: flex;
+    align-items: stretch;
+}
+
+.faqs-image-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.plus {
+    margin: 0 16px;
+}
+
+@media screen and (max-width: 1200px) {
+    .faqs-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .faqs-left {
+       width: 100%;
+    }
+
+    .faqs-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+}

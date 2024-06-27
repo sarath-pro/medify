@@ -1,0 +1,90 @@
+.footer-container {
+    position: relative;
+    top: 300px;
+    background-color: #1B3C74;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px 60px;
+}
+
+.footer-container #logo-2 {
+    width: 127px;
+    height: 36px;
+    margin: 0 8px;
+}
+
+.footer-links {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.social-media {
+    background-color: white;
+    width: 35.2px;
+    height: 35.2px;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8px;
+}
+
+.social {
+    display: flex;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.link {
+    color: white;
+    padding: 4px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+
+}
+
+.link img {
+    margin: 0 8px;
+}
+
+#facebook {
+    width: 10px;
+    height: 16px;
+}
+
+#twitter {
+    width: 16px;
+    height: 16px;
+}
+
+#youtube {
+    width: 18px;
+    height: 16px;
+}
+
+#pinterest {
+    width: 16px;
+    height: 16px;
+}
+
+#copyright {
+    color: white;
+    margin: 30px 0px 0px 0px;
+    padding: 8px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+
+}

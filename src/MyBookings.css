@@ -1,0 +1,120 @@
+.blue-con {
+    background: linear-gradient(91.75deg, #2AA7FF 1.4%, #0C8CE6 100.57%);
+    border-radius: 0 0 15px 15px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    background-color: white;
+    padding: 16px;
+    height: fit-content;
+    /* z-index: 100; */
+    gap: 50px;
+    box-shadow: 6px 6px 35px 0px #1028511C;
+    border-radius: 15px;
+    border: none;
+    position: relative;
+    top: 41px;
+}
+
+.input-container input {
+    border: 1px solid #F0F0F0;
+    padding: 8px;
+    width: 60%;
+    background-color: #FAFBFE;
+    border-radius: 8px;
+}
+
+.button-1 {
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    background-color: var(--primary);
+    padding: 8px 16px;
+    color: white;
+    gap: 10px;
+    border-radius: 8px;
+    width: 121px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.meds-container {
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(81deg, #EFF5FE 9.01%, rgba(241, 247, 255, 0.47) 89.11%);
+}
+
+.meds-container p {
+    width: fit-content;
+}
+
+.row-1 {
+    display: flex;
+}
+
+.row-1 p {
+    margin: 0;
+}
+
+.meds-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: flex-start;
+    margin: 24px 0 12px 24px;
+}
+
+#meds-details-1 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: center;
+}
+
+#meds-details-2 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #787887
+}
+
+.meds-list-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#my-bookings {
+    font-family: Ubuntu;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45.96px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 24px;
+}
+
+@media screen and (max-width: 978px) {
+    .meds-list-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+}

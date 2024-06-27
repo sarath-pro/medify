@@ -1,0 +1,10 @@
+.innerimage {
+    position: relative;
+    left: -298px;
+    top: 18px;
+}
+
+.outerframe {
+    position: relative;
+    z-index: 2;
+}

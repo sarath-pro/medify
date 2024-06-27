@@ -1,0 +1,118 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.caring-container {
+    position: relative;
+    top: 250px;
+    background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 64px; */
+}
+
+.caring-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 32px;
+}
+
+.caring-right {
+    width: 50%;
+    padding: 64px;
+}
+
+.consultation {
+    position: relative;
+    top: 176px;
+    right: 224px;
+    background-color: white;
+    width: fit-content;
+    box-shadow: 0px 40px 40px -15px #94B6CE26;
+    border-radius: 8px;
+    z-index: 2;
+}
+
+#free-consultation {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    color: #1B3C74
+}
+
+#container-tag {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #77829D;
+}
+
+#img-1 {
+    position: relative;
+}
+
+#img-2 {
+    position: relative;
+    top: -60px;
+    left: -104px;
+}
+
+#right-1 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    color: var(--primary)
+}
+
+#right-2 {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 67px;
+    text-align: left;
+    color: #1B3C74;
+}
+
+#right-3 {
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: left;
+    color: #77829D;
+}
+
+.caring-right .li-item {
+    margin: 10px 0;
+}
+
+.item-text {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    color: #1B3C74;
+}
+
+@media screen and (max-width: 1010px) {
+    .caring-container {
+        position: relative;
+        top: 300px;
+        background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

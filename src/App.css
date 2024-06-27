@@ -1,0 +1,17 @@
+* {
+  --primary: #2AA7FF;
+}
+
+.logo {
+  width: 92px;
+  height: 27px;
+}
+
+/* body {
+  background-color: lightblue;
+} */
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
